@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === 'production') {
   mockXHR()
 }
 
-Vue.use(ElementUI)
+Vue.use(ElementUI, { size: 'medium' })
 
 Vue.config.productionTip = false
 
